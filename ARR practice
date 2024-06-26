@@ -8,3 +8,9 @@ output ARR[4]
 
 ARR[6]=88
 output ARR[6]
+
+x=0
+loop while x<=6
+    output ARR[x]
+    x=x+1
+end loop
