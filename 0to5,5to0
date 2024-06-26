@@ -1,0 +1,12 @@
+x=0
+loop while x<6
+    output x
+    x=x+1
+end loop
+
+x=5
+loop while x>-1
+    output x
+    x=x-1
+end loop
+
