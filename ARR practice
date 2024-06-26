@@ -14,3 +14,11 @@ loop while x<=6
     output ARR[x]
     x=x+1
 end loop
+
+x=0
+sum=0
+loop while x<=6
+    sum=sum+ARR[x]
+    x=x+1
+end loop
+output sum
