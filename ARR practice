@@ -8,13 +8,13 @@ output ARR[4]
 
 ARR[6]=88
 output ARR[6]
-
+//简简单单，写个改变量
 x=0
 loop while x<=6
     output ARR[x]
     x=x+1
 end loop
-
+//简简单单，写个输出
 x=0
 sum=0
 loop while x<=6
@@ -22,7 +22,7 @@ loop while x<=6
     x=x+1
 end loop
 output sum
-
+//简简单单，写个所有的和
 maxn=0
 maxnp=0
 
@@ -36,3 +36,4 @@ i=i+1
 end loop
 output maxn
 output maxnp+1
+//简简单单，写个最大值和他的下标
