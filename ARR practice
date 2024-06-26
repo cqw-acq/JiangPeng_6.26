@@ -22,3 +22,17 @@ loop while x<=6
     x=x+1
 end loop
 output sum
+
+maxn=0
+maxnp=0
+
+i=0
+loop while i<=6
+    if maxn<ARR[i] then
+       maxn=ARR[i]
+       maxnp=i
+    end if
+i=i+1
+end loop
+output maxn
+output maxnp+1
